@@ -25,7 +25,7 @@ public class task1 {
     }
     public static void rowAverage(long rowSum,int[][] array, int rowIndex){ // method checks if average from sum of numbers
       // in chosen row is greater than 0 and prints the answer
-      if(1.0*rowSum/array[rowIndex].length>=0){
+      if(1.0*rowSum/array[rowIndex].length>0){
           System.out.println("Average of the elements in the row " +rowIndex+" is greater than 0");
       } else {
           System.out.println("Average of the elements in the row " +rowIndex+" is 0 or less");
